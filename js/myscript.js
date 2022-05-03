@@ -1,13 +1,13 @@
-let miavariabile = prompt("nome");
-document.write (miavariabile)
+const miavariabile = prompt("il tuo nome è");
+document.write (`il tuo nome è: ${miavariabile}`);
 
-let miavariabile1 = prompt("cognome");
-document.write (miavariabile1);
+const miavariabile1 = prompt(" il tuo cognome è");
+document.write (` il tuo cognome è: ${miavariabile1}`);
 
-let miavariabile2 = prompt("colore preferito");
-document.write (miavariabile2);
+const miavariabile2 = prompt(" il tuo colore preferito è");
+document.write (` il tuo colore preferito è: ${miavariabile2}`);
 
 const variabilenumero= 21;
 
-let password = ` la password è: ${miavariabile + miavariabile1 + miavariabile2 +variabilenumero}`
-document.write (password)
+const password = ` Ciao ${miavariabile} ${miavariabile1} il tuo colore preferito è ${miavariabile2} la password è: ${miavariabile + miavariabile1 + miavariabile2 +variabilenumero}`;
+document.write (password);
